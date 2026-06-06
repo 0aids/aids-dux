@@ -1,0 +1,8 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Keebio-Parts") (type "KiCad") (uri "${KIPRJMOD}/deps/Keebio-Parts.pretty") (options "") (descr ""))
+	(lib (name "key-switches") (type "KiCad") (uri "${KIPRJMOD}/deps/key-switches.pretty") (options "") (descr ""))
+	(lib (name "custom") (type "KiCad") (uri "${KIPRJMOD}/custom.pretty") (options "") (descr ""))
+	(lib (name "custom") (type "KiCad") (uri "${KIPRJMOD}/custom.pretty") (options "") (descr ""))
+	(lib (name "custom") (type "KiCad") (uri "${KIPRJMOD}/custom.pretty") (options "") (descr ""))
+)

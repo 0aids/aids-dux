@@ -1,0 +1,9 @@
+[submodule "deps/key-switches.pretty"]
+	path = deps/key-switches.pretty
+	url = https://github.com/siderakb/key-switches.pretty.git
+[submodule "deps/Keebio-Parts.pretty"]
+	path = deps/Keebio-Parts.pretty
+	url = https://github.com/keebio/Keebio-Parts.pretty.git
+[submodule "deps/ergogen-footprints"]
+	path = deps/ergogen-footprints
+	url = https://github.com/ceoloide/ergogen-footprints.git
