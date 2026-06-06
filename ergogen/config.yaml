@@ -126,6 +126,14 @@ points:
       key:
         footprints:
 outlines:
+  _artremover:
+    - what: rectangle
+      where: matrix_index_bottom
+      fillet: 2
+      size: [24, 20]
+      adjust:
+        shift: [-12, -18]
+        rotate: -15
   _raw:
     - what: rectangle
       where: true
@@ -151,36 +159,7 @@ outlines:
     - what: outline
       name: bottom
     - what: outline
-      name: _key_slot_negative
-      operation: subtract
-  _mounting_plate:
-    - what: hull
-      points: 
-        - matrix_pinky_bottom
-        - matrix_pinky_home
-        - matrix_pinky_top
-        - matrix_ring_bottom
-        - matrix_ring_home
-        - matrix_ring_top
-        - matrix_middle_bottom
-        - matrix_middle_home
-        - matrix_middle_top
-        - matrix_index_bottom
-        - matrix_index_home
-        - matrix_index_top
-        - matrix_inner_bottom
-        - matrix_inner_home
-        - matrix_inner_top
-        - thumb_first_only
-        - thumb_second_only
-      concavity: 50
-      expand: -0.5
-    - what: outline
-      name: bottom
-      operation: intersect
-      fillet: 5
-    - what: outline
-      name: _key_slot_negative
+      name: _artremover
       operation: subtract
 pcbs:
   aids-dux:
@@ -199,15 +178,7 @@ pcbs:
           shift: [7, -23]
           rotate: -10
 cases:
-  prototype:
+  plate:
     - what: outline
       name: _prototype_plate
-      extrude: 1.6
-    - what: outline
-      name: _key_snap
-      extrude: 1.6 + 5
-  mounting_plate:
-    - what: outline
-      name: _mounting_plate
-      extrude: 1.2
-
+      extrude: 2.5 # The switch thickness above the board is about 2.5mm allegedly

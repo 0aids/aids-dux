@@ -14,3 +14,11 @@ Run `ergogen ergogen` to get the outputs.\
 # image links
 - https://www.pixiv.net/en/artworks/142930028
 - https://www.pixiv.net/en/artworks/144689907
+
+# TODO
+1. Improve the generated plate for adding screws for clamping with a case.
+2. Make the plate also wrap around the PCB to hold it in place.
+3. (once parts arrived) figure out how to wire the bottom and make a case around it.
+
+# Next improvements
+Don't make the pinky bottom bind too far towards the thumb, the hole would've looked nicer.
